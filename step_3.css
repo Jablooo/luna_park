@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: AliceBlue;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  /*border: 2px solid #ccc;*/
+}
+
+.title {
+  display: block;
+}
+.title:after {
+  content: " ";
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  display: block;
+  background: #393939;
+  margin: 0 auto;
+}
+
+h1 {
+  padding-top: 60px;
+  font-family: helvetica;
+  color: #393939;
+  text-align: left;
+  font-size: 30px;
+}
+
+h2 {
+  padding-top: 40px;
+  padding-left: 10px;
+  font-family: helvetica;
+  color: #393939;
+  text-align: left;
+  font-size: 20px;
+}
+
+p {
+  font-family: helvetica;
+  color: #393939;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.col {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 5px 0;
+  float: left;
+}
+
+.col p {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.col2 {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 30px 5px 0;
+  float: left;
+}
+
+.col2 p {
+  padding-top: 10px;
+}
+
+.image-link {
+  position: relative;
+  width: 100%;
+  display: block;
+  min-height: 185px;
+  max-height: 185px;
+}
+
+.image {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0 auto;
+}
+
+hr {
+  width: 60%;
+  margin: 10px auto;
+  background: #393939;
+  height: 2px;
+}
+
+.sketches-container {
+  position: relative;
+  width: 100%;
+  display: block;
+  min-height: 220px;
+  max-height: 220px;
+    /*border: 2px solid #ccc;*/
+}
+
+.sketch {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translateX(-50%) translateY(-50%);
+  max-height: 220px;
+  margin: 0 auto;
+    /*border: 2px solid #ccc;*/
+}
